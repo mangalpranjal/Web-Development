@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.container {
+	font-size:21px;
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family:"Cosmic Sans";
+  color:white;
+  letter-spacing:2px;
+
+}
+
+
+img { 
+  width: 100%;
+  height: 400px;
+}
+a:link, a:visited {
+	font-size:20px;
+  background-color: #f44336;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border:2px #f44336;
+  border-radius:10px;
+}
+
+
+a:hover, a:active {
+  background-color: red;
+}
+/* Style the top navigation bar */
+.topnav {
+	font-size:20px;
+  overflow: hidden;
+  background-color: white;
+  color:grey;
+}
+
+/* Style the topnav links */
+.topnav a {
+	font-size:20px;
+  float: right;
+  display: block;
+  color: grey;
+  text-align: center;
+   background-color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius:00px;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;}
+  .header {
+  padding: 30px;
+  text-align: center;
+  background: lightgrey;
+  font-family:serif;
+}
+
+table, td, th {  
+  
+  text-align: left;
+  border-collapse: collapse;
+  font-family:Comic Sans MS;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height:200px;
+}
+
+tr, td {
+  padding: 15px;
+  text-align:center;
+}
+div.background {
+  background: url("Pranjal/images/portfolio.jpg") repeat;
+  border: 2px solid black;
+  height:500px;
+  width:100%;
+  opacity:0.6;
+
+}
+
+div.transbox {
+text-align:center;
+font-size:30px;
+font-family:Comic Sans MS;
+color:solid black;
+  /* For IE8 and earlier */
+}
+div.transbox p {
+	color:brown;
+	font-size:20px;
+  text-align:center;
+  font-weight: bold;
+  
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contain {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<p id="home"></p>
+<div class="container">
+  <img src="Pranjal/images/img1.jpg" alt="Camera" width="1000" height="300">
+  <div class="center"><B>Impulse</B>
+  <br>Design Studio<br><br>
+<a href="#">Get Started</a>
+  </div>
+
+</div>
+
+<div class="topnav">
+  
+  <a href="#contact" style="font-size:18px";>Contact</a>
+ 
+  <a href="#portfolio" style="font-size:18px";>Portfolio</a>
+  <a href="#team" style="font-size:18px";>Team</a>
+  <a href="#work" style="font-size:18px";>Work</a>
+  <a href="#intro" style="font-size:18px";>Intro</a>
+  <a href="#home" style="font-size:18px";>Home</a>
+  <a href="#" style="font-size:25px";>Impulse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+</div>
+<div class="header">
+<p id="intro"></p>
+Welcome to Impulse<br>
+  <h1>Branding and Digital Studio</h1>
+  <p>We’re a brand design studio. We design things, we make things, we solve problems, we clarify, we help sell things, we make people smile, and above all we deliver work that makes a difference. No matter what scale that is, it’s about bringing success to our clients. 
+
+We've built a reputation for our unique approach and ability to deliver across multiple platforms. We also win awards for our work.</p>
+</div>
+
+
+<table>
+  <tr>
+    <td rowspan=2 bgcolor="white" width="33%"><i class="fa fa-file"><br><br><B>Service<br>NYC Opportunity launched the Service Design Studio to help spread valuable methodologies that are often underused inside government. As a discipline, service design is a vehicle for advancing positive change.</B></i></th>
+    <td bgcolor="grey"><i class="fa fa-mobile"><br><br><B>Mobile UX</B></i></th>
+    <td bgcolor="orange"><i class="fa fa-cloud"><br><br><B>Social Media</B></i></th>
+  </tr>
+  <tr>
+    
+    <td bgcolor="orange"><i class="fa fa-envira"><br><br><B>Web Design</B></i></td>
+    <td bgcolor="grey"><i class="fa fa-black-tie"><br><br><B>Jobs</B></i></td>
+  </tr>
+<p id="work"></p>
+</table>
+<div id="Our team" style="background-color:Black; color:DodgerBlue; face:Veranda; font-size: 50px; text-align:center;" ><B>Our Team</B>
+<p id="team"></p>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Pranjal/images/doremon.jpg" alt="Doremon" style="width:100%">
+      <div class="container">
+        <h2>Doremon</h2>
+        <p class="title">CEO & Founder</p>
+      
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Pranjal/images/ninja.jpg" alt="Ninja" style="width:100%">
+      <div class="container">
+        <h2>Ninja Hattori</h2>
+        <p class="title">Developer</p>
+        
+        
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="Pranjal/images/perman.jpg" alt="Perman" style="width:100%">
+      <div class="container">
+        <h2>Perman</h2>
+        <p class="title">Designer</p>
+        
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="background">
+<p id="portfolio"></p>
+  <div class="transbox"><B>Portfolio</B>
+    <p>A portfolio is a grouping of financial assets such as stocks, bonds, commodities, currencies and cash equivalents, as well as their fund counterparts, including mutual, exchange-traded and closed funds. A portfolio can also consist of non publicly tradable securities, like real estate, art, and private investments.</p>
+  </div>
+</div>
+<h3><center>Contact Us</center></h3>
+<p id="contact"></p>
+<div class="contain">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="India">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+   <center> <input type="submit" value="Submit"></center>
+  </form>
+</div>
+
+
+
+</body>
+
+
+<html>
